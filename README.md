@@ -1,1 +1,0 @@
-# f3_contest2_july
