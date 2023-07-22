@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    word-spacing: 15%;
+}
+
+.details {
+    display: inline;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(71, 23, 23);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 20px rgb(205, 199, 199);
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    background-color: #ccc;
+    border: 2px solid palevioletred;
+}
+
+.timer-ended {
+    background-color: #c41e2b;
+    background-color: rgba(255, 255, 0, 0.601);
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#start-timer-btn {
+    border-radius: 12px;
+    width: 120px;
+}
+
+#deletebtn {
+    border-radius: 12px;
+    width: 120px;
+}
+
+.timer-input {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.timer-input input {
+    width: 60px;
+    padding: 5px;
+}
+
+.timer-input button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.active-timers {
+    display: grid;
+    gap: 10px;
+}
